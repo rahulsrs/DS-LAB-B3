@@ -7,7 +7,7 @@ int fact(int n){  //function to find factorial recursively
 		return (n*fact(n-1));
 		}  
 	else if(n==0 || n==1)	
-		return n;  // if n is < 1 then we print the same number as 
+		return 1;  // if n is < 1 then we print the same number as 
 }
 
 int main(){
